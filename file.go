@@ -1,10 +1,10 @@
-Package main
+package main
+
 import "fmt"
-func main()
-{
-    var a int=5;
-    var b int=7;
-    var c int;
-    c=a+b
-    fmt.Println("Addition of %d and %d is %d",a,b,c)
+
+func main() {
+   var x float64
+   x = 20.0
+   fmt.Println(x)
+   fmt.Printf("x is of type %T\n", x)
 }
